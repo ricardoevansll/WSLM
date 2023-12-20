@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad-05</title>
+</head>
+<h1>Actividad-06 Formulario de pizzeria</h1>
+<form action="procesarPedido.jsp" method="get">
+    <h2>Información del Cliente</h1>
+    <label for="nombreCompleto">Nombre Completo: </label>
+    <input id="nombreCompleto" name="nombreCompleto" autofocus placeholder="Escriba su nombre completo" required />	
+    <br/>
+    <label for="passw">Contraseña: </label>
+    <input id="passw" type="password" placeholder="Escriba su Contraseña" required/>
+    <br/>
+    <label for="direccion">Dirección: </label>
+    <input id="direccion" type="text" placeholder="Escriba su Dirección" required/>
+    <br/>
+    <label for="telefono">Teléfono: </label>
+    <input id="telefono" type="tel" placeholder="Escriba su Telefóno" required/>
+    <br/>
+    <label for="edad">Edad: </label>
+    <input id="edad" type="number" min="17" max="110" step="1" placeholder="Escriba su Edad" required/>
+    <br/>
+    <br/>
+    <h2>Pedido de Pizza</h1>  
+        <h3>Tamaño de la Pizza</h3>
+        <label for="size">Tamaño: </label><br/>
+        <input type="radio" name="size" value="P"/>Pequeña (8 pulgadas)<br/>	
+        <input type="radio" name="size" value="M"/>Mediana (12 pulgadas)<br/>	
+        <input type="radio" name="size" value="G"/>Mediana (16 pulgadas)<br/>	
+        <br/>
+        <h3>Elija su tipo de masa</h3>
+        <label for="masa">Masa: </label><br/>
+        <input type="radio" name="masa" value="MF" checked/>Masa fina<br/>	
+        <input type="radio" name="masa" value="MN"/>Masa normal<br/>	
+        <input type="radio" name="masa" value="MG"/>Masa gruesa<br/>	
+        <br/>
+        <h3>Selecciona los ingredientes</h3>
+        <label for="ingredientes">Ingredientes: </label><br/>	
+        <input type="checkbox" name="ingredientes" value="pepp"/>Pepperoni<br/>	
+        <input type="checkbox" name="ingredientes" value="juver"/>Judias Verdes<br/>	
+        <input type="checkbox" name="ingredientes" value="jamon"/>Jamón<br/>	
+        <input type="checkbox" name="ingredientes" value="alcap"/>Alcaparras<br/>	
+        <input type="checkbox" name="ingredientes" value="aceitu"/>Aceitunas<br/>
+        <input type="checkbox" name="ingredientes" value="cebolla"/>Cebolla<br/>
+        <input type="checkbox" name="ingredientes" value="salch"/>Salchicha<br/>
+        <input type="checkbox" name="ingredientes" value="pina"/>Piña<br/>
+        <br/>
+        <h3>Elija su tipo de salsa</h3>
+        <label for="salsa">Salsa: </label><br/>
+        <input type="radio" name="salsa" value="TOMATE" checked/>Tomate<br/>	
+        <input type="radio" name="salsa" value="BARBACOA"/>Barbacoa<br/>	
+        <input type="radio" name="salsa" value="PESTO"/>Pesto<br/>
+        <input type="radio" name="salsa" value="SSALSA"/>Sin salsa<br/>
+        <br/>
+  
+    <h2>Instrucciones Especiales</h1>
+        <label for="instrucciones">Por favor, proporcione cualquier instrucción especial o comentario adicional sobre su pedido: </label><br/>	
+        <textarea style="resize: none;" rows="4" cols="100" name="instrucciones"></textarea>
+        <br/>
+    <h2>Metodo de Pago</h1>
+        <label for="m_pago">Escoja su método de pago: </label>
+            <select name="m_pago">
+                <option value="p_efectivo">Efectivo</option>
+                <option value="p_tarjeta" selected>Tarjeta de Crédito</option>
+                <option value="p_paypal">Paypal</option>
+            </select>
+        <br />
+    <h2>Envíar Pedido</h1>
+    <br />
+    <a href="condiciones.html">Condiciones del Pedido</a>
+    <br/>
+    <br/>
+    <label for="condiciones">¿Acepta los terminos y condiciones de uso? </label><br/>	
+     He leido y acepto los terminos de uso <input type="checkbox" name="condiciones" value="Y" />
+     <br/>
+     <br/>
+     	
+     <input type="submit" value="Enviar los datos" />
+     <input type="reset" value="Limpiar Formulario" />
+</form>
+</body>
+</html>   

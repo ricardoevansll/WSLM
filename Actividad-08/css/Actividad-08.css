@@ -1,0 +1,33 @@
+body {
+    background-image: url("../imagen/apple-logo.png");/* Ubicación de la imagen */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+
+}
+
+.sesenta {
+    width: 60%;
+}
+
+
+.quinientos {
+    width: 500px;
+}
+
+.quince {
+    font-size: 15px;
+}
+
+.emes2 {
+    font-size: 2em;
+}
+
+section {
+    color: olive;
+ 
+}
+
+.articulo2section {
+    color: red;
+}

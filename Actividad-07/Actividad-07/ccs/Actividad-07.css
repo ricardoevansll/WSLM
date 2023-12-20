@@ -1,0 +1,47 @@
+
+
+.blanco {
+    color : white
+}
+
+.fondogris {
+    background-color : #f0f0f0
+}
+
+.azul {
+    color : blue;
+}
+
+.fondorojo {
+    background-color : red;
+}
+
+h1 {
+    color: yellow;
+    background-color : black;
+}
+
+h3 {
+    color: white;
+    background-color : darkblue;
+}
+
+#cambioPie {
+    color: grey;
+}
+
+#cambioLista3 {
+    color: olivedrab;
+}
+
+h2.centrar {
+    text-align: center;
+    background-color : blanchedalmond;
+}
+
+p.parrafo {
+    text-align: center;
+    color:darkgray;
+    background-color:lightgray;
+
+}

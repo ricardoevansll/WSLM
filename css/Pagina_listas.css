@@ -1,0 +1,15 @@
+.halloween {
+    list-style-image: url('../img/halloween1.png');
+}
+
+ol {
+   list-style-type: upper-alpha; 
+}
+
+.cuadros {
+    list-style-type: square;
+}
+.romanos {
+    list-style-type: lower-roman; 
+ }
+ 
